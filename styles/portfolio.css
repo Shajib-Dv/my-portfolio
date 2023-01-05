@@ -19,7 +19,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 
 nav ul {
@@ -115,10 +115,42 @@ td {
 
 /* experieence section */
 .experience {
-  text-align: center;
+  text-align: left;
+  margin-top: 130px;
+}
+
+.experience h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.experience-description {
+  margin-bottom: 50px;
+  font-size: 18px;
 }
 
 /* skill section */
 .skills-container {
   display: flex;
+  gap: 24px;
+}
+
+.skill {
+  width: 267px;
+  height: 377px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.skill-title {
+  font-size: 20px;
+}
+
+.skill-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
 }
